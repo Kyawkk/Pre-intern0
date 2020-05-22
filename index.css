@@ -1,0 +1,286 @@
+.first{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: yellow;
+    margin-bottom: 0;
+    margin: 0;
+    position: relative;
+    margin-top: 20px;
+}
+.second{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+    color: yellow;
+}
+.first-img{
+    width: 5%;
+    height: fit-content;
+    position: relative;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+.second-img{
+    width: 12%;
+    float: right;
+    margin-right: 20%;
+    margin-bottom: 10px;
+}
+.header{
+    background-color: rgb(8, 8, 112);
+    height: 20vh;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+.img{
+    margin-top: -20px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: 5vh;
+    align-items: center;
+    align-content: center;
+    margin-top: 20vh;
+}
+nav ul{
+    display: flex;
+    margin-left: 17%;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 15px;
+    color: #a7a7a7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li:hover{
+    color: black;
+    transition: ease .4s;
+    cursor: pointer;
+}
+    
+.slide{
+    background-color: blue;
+    height: 75vh;
+    position: absolute;
+    width: 100%;
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 25vh;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin-top: 100vh;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.next-title{
+    text-align: center;
+    width: 60%;
+}
+.next-title .first-line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    color: darkblue;
+}
+.next-title .second-line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9vw;
+    color: darkblue;
+}
+.next-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(161, 5, 5);
+    text-align: left;
+}
+.left-inside{
+    background-color: rgb(0, 195, 255);
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    height: fit-content;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    box-shadow: rgb(197, 197, 197) 2px 2px 20px 2px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    height: 1px;
+    background-color: black;
+}
+.left-container{
+    width: 40%;
+    height: 100vh;
+    margin-right: 20px;
+}
+.right-container{
+    width: 60%;
+    height: 100vh;
+    margin: 0;
+    margin-left: 20px;
+    
+}
+.inside-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.right{
+    width: 100%;
+    height: fit-content;
+    
+    border-radius: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+.list ul li{
+    text-align: left;
+    padding-left: 0;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+.list-heading{
+    text-align: left;
+    color: rgb(7, 91, 187);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.download{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 116, 134);
+    padding: 15px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.name{
+    color: rgb(7, 91, 187);
+    text-align: left;
+    margin: 0;
+    margin-top: 10px;
+    
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text{
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+}
+.right-hr{
+    height: .5px;
+    background-color: rgb(94, 94, 94);
+    margin: 20px;
+}
+.text :first-child{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+.text p ,.text-right p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 91, 187);
+    text-align: left;
+}
+.text-right{
+    width: 50%;
+}
+.left-data{
+    width: 50%;
+    float: right;
+}
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.contact-heading{
+    margin: 0;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 195, 255);
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 0;
+    margin-top: 80px;
+    padding-right: 0em;
+    box-shadow: rgb(197, 197, 197) 1px12px 20px 1px;
+}
+.entire-right{
+    box-shadow: 1px 1px 20px rgb(209, 209, 209);
+    border-radius: 5px;
+    margin: 0;
+}
+
+.mail{
+    margin-top: 5px;
+}
+.nexts-title{
+    color: brown;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.detail{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: justify;
+}
+.red{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    text-align: left;
+}
+.last{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    margin-top: 30px;
+}
